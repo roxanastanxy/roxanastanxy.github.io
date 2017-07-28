@@ -1,2 +1,5 @@
 # roxanastanxy.github.io
-Este es mi portfolio web
+## portfolio de Roxana Stan
+Este es mi portfolio del Taller de los integrantes
+del mismo
+
