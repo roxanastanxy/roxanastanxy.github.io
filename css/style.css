@@ -14,14 +14,42 @@ body{
     
 }
 
-
-/*texto*/
+.cabecera{
+  
+    border-bottom: solid 5px crimson;
+   width:100%;
+    padding-bottom: 15px;
+    
+}
+.profile{
+    width:10%;
+    height:100px;
+    background-image:url(../img/profile.jpg);
+    border:groove 7px crimson;
+    border-radius: 20%;
+    background-size: cover;
+    display: inline-block;
+}
 .nombre{
+      display: inline-block;
+    width: 20%;
     font-family: Lobster;
     font-size: 35px;
-    margin-left: 150px;
-    margin-top: 0 ;
+    margin-top:0;
+
 }
+h1{
+      display: inline-block;
+     width: 65%;
+  text-align: right;
+    font-family: Abril fatface;
+
+    font-size: 45px;
+}
+
+
+/*texto*/
+
 .titulo{
     font-family:Abril Fatface,cursive; 
     font-size: 55px;
@@ -29,25 +57,53 @@ body{
     
     
 }
-h1{
-    text-align: center;
-    font-family: Abril fatface;
-    margin-left: 500px;
-    margin-right:400px;
-    font-size: 45px;
-}
 
-.profile{
-    width:100px;
-    height:100px;
-    background-image:url(../img/profile.jpg);
-    border:groove 7px crimson;
-    border-radius: 20%;
-    background-size: cover;
-}
-.cabecera{
-    display: inline-flex;
-    border-bottom: solid 5px crimson;
-    padding-bottom: 15px;
+
+
+.container{
+    margin: 50px;
+    display:inline-flex;
     
+    
+}
+.casa{
+    background-image: url(/img/pagina-casa.jpg);
+    width:250px;
+    height: 150px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border:groove violet 7px;
+    margin:20px;
+    display:left;
+   
+}
+.presentacion{
+    background-image: url(/img/pagina-presentacion.jpg);
+    width: 250px;
+    height: 150px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border:groove violet 7px;
+   margin:20px;
+     display:left;
+  
+}
+.curriculum{
+      background-image: url(/img/pagina-curriculum.jpg);
+    width: 250px;
+    height: 150px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border:groove violet 7px;
+   margin:20px;
+    
+}
+.canal{
+     background-image: url(/img/pagina-canal.jpg);
+    width: 250px;
+    height: 150px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border:groove violet 7px;
+    margin:20px;
 }
