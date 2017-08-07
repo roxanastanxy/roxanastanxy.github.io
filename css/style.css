@@ -7,11 +7,12 @@
 
 
 body{
+
     background-image: url(/img/pattern.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    
+    overflow-x: hidden;
 }
 
 .cabecera{
@@ -19,32 +20,43 @@ body{
     border-bottom: solid 5px crimson;
    width:100%;
     padding-bottom: 15px;
-    
+    box-shadow: 5px 5px 5px #333;
 }
 .profile{
-    width:10%;
+    width:100px;
     height:100px;
     background-image:url(../img/profile.jpg);
     border:groove 7px crimson;
     border-radius: 20%;
     background-size: cover;
     display: inline-block;
+      border-bottom: solid 5px crimson;
+   
+    box-shadow: 5px 5px 5px #333;
 }
 .nombre{
       display: inline-block;
     width: 20%;
     font-family: Lobster;
     font-size: 35px;
-    margin-top:0;
-
+ position: absolute;
+    top:0;
+    color:#eaed5a;
+    text-shadow: 5px 5px 5px black;
+ 
 }
 h1{
       display: inline-block;
      width: 65%;
   text-align: right;
     font-family: Abril fatface;
-
+position: absolute;
+    top:50px;
+    color:#eaed5a;
+    text-shadow: 5px 5px 5px black;
     font-size: 45px;
+    right:100px;
+    
 }
 
 
@@ -56,54 +68,51 @@ h1{
     text-align: center;
     
     
+    
 }
 
 
 
 .container{
-    margin: 50px;
+    margin:100px;
     display:inline-flex;
+   
     
     
 }
 .casa{
     background-image: url(/img/pagina-casa.jpg);
-    width:250px;
-    height: 150px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    border:groove violet 7px;
-    margin:20px;
-    display:left;
-   
 }
+
 .presentacion{
-    background-image: url(/img/pagina-presentacion.jpg);
-    width: 250px;
-    height: 150px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    border:groove violet 7px;
-   margin:20px;
-     display:left;
-  
+    background-image: url(/img/pagina-presentacion.jpg); 
 }
 .curriculum{
       background-image: url(/img/pagina-curriculum.jpg);
-    width: 250px;
-    height: 150px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    border:groove violet 7px;
-   margin:20px;
-    
 }
 .canal{
      background-image: url(/img/pagina-canal.jpg);
-    width: 250px;
+    background-position: center;
+   
+}
+.caja{ 
+    width:200px;
     height: 150px;
     background-size: cover;
     background-repeat: no-repeat;
     border:groove violet 7px;
     margin:20px;
+    border-radius:20px;
+    box-shadow: 10px 10px 10px 5px #401b44;
+}
+figcaption{
+    text-align: center;
+    color: whitesmoke;
+    background: rgba(0,0,0, 0.8);
+    bottom:0;
+    position:inherit;
+    padding:6px;
+    margin:10px;
+    border-radius: 10px;
+    border:gray 2px solid;
 }
