@@ -4,7 +4,10 @@
 @import url('https://fonts.googleapis.com/css?family=Abril+Fatface');
 
 
-
+*{
+    margin:0;
+    padding:0;
+}
 
 body{
 
@@ -12,7 +15,7 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    overflow-x: hidden;
+/*    overflow-x: hidden;*/
 }
 
 .cabecera{
@@ -36,12 +39,12 @@ body{
 }
 .nombre{
       display: inline-block;
-    width: 20%;
+    width: 10%;
     font-family: Lobster;
     font-size: 35px;
  position: absolute;
-    top:0;
-    color:#eaed5a;
+    top:10px;
+    color:#bf24af;
     text-shadow: 5px 5px 5px black;
  
 }
@@ -71,28 +74,38 @@ position: absolute;
     
 }
 
-
-
 .container{
-    margin:100px;
-    display:inline-flex;
-   
+    margin: 0 auto;
+    text-align: center;
+}
+
+ .container a{
+ 
+    display:inline-block;
+     width:20%;
+    text-align: center;
+ 
+
     
     
 }
 .casa{
     background-image: url(/img/pagina-casa.jpg);
+    display: inline-block;
 }
 
 .presentacion{
     background-image: url(/img/pagina-presentacion.jpg); 
+    display: inline-block;
 }
 .curriculum{
       background-image: url(/img/pagina-curriculum.jpg);
+    display: inline-block;
 }
 .canal{
      background-image: url(/img/pagina-canal.jpg);
     background-position: center;
+    display: inline-block;
    
 }
 .caja{ 
@@ -115,4 +128,28 @@ figcaption{
     margin:10px;
     border-radius: 10px;
     border:gray 2px solid;
+}
+nav{
+  
+    width:50px;
+     background-color:crimson;
+    border-radius:5px;
+    position: fixed;
+    right:5px;
+  bottom:0;
+}
+nav li{
+    list-style: none;
+   text-align: center;
+     margin:5px;
+    
+}
+nav li a{
+    text-decoration: none;
+    color:aquamarine;
+    width: 50px;
+    text-align: center;
+    
+    
+    
 }
