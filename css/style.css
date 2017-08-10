@@ -108,6 +108,12 @@ position: absolute;
     display: inline-block;
    
 }
+.mapa{
+    background-image: url(/img/mapa.jpg);
+    background-size: cover;
+    background-position: center;
+    display:inline-block;
+}
 .caja{ 
     width:200px;
     height: 150px;
