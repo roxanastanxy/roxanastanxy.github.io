@@ -5,76 +5,93 @@
 		<title>Page Title</title>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="initial-scale=1.0">
-        <link type="text/css" href="css/style.css" rel="stylesheet">
-        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+              <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">   
+        <link type="text/css" href="bootstrap.min.css" rel="stylesheet">
+ 
+        <link type="text/css" href="style.css" rel="stylesheet">
+       
 	</head>
 
 	<body>
-     <div class='cabecera'>   
-<div class='profile'>
-
-        
-    
-    
-        
+ <div class='container'>
+       <div class='cabecera'> <img src='img/profile.jpg' width="100px">
+        <h2>Roxana Stan</h2>  
         </div>
-        <p class='nombre'>Roxana Stan</p>
-           <h1 >PORTAFOLIO</h1>
-        </div>
-      
-        
-        
-        <div class='container'>
-        
-            <a href='https://roxanastanxy.github.io/casa/'>
-                <div class='casa caja'>
-                   
-            </div>
-                 <figcaption>Casita hecha en CSS</figcaption>
-            </a>
-            <a href='https://roxanastanxy.github.io/curriculum/' >
-                <div class='curriculum caja'>
-               </div>
-                 <figcaption>Pagina de mi curriculum</figcaption>
-            </a>
-            <a href='https://roxanastanxy.github.io/presentacion/'>
-                <div class='presentacion caja'></div>
-                <figcaption>Carta de presentacion</figcaption>
-            </a>
-      <a href=''>  
-          <div class='canal caja'>
-              
-         </div>
-          <figcaption>Mi primera pagina web</figcaption>
-            </a>
-             <a href='https://roxanastanxy.github.io/monumentos-valdepenas/'>
-                <div class='mapa caja'>
-                   
-            </div>
-                 <figcaption>Mapa de los monumentos</figcaption>
-            </a>
-        </div>
-        <div class='menu'>
-        <nav>
-          <ul>
-            <li><a href='https://plus.google.com/?hl=es'><i class="fa fa-google-plus-official fa-2x" aria-hidden="true"></i></a></li>
-            <li><a href="https://www.linkedin.com/in/roxana-stan-62207493/"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a></li>
-            <li><a href='https://www.youtube.com/channel/UCa2SJN1QXRbSUUUDZFhxi_Q'><i class="fa fa-youtube-square fa-2x" aria-hidden="true"></i></a>
-</li>
-            <li><a href="https://github.com/roxanastanxy"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a></li>
-            <li><a href='https://www.facebook.com/profile.php?id=100018610069406'><i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i></a></li>
-            <li><a href='https://twitter.com/since_m2015'><i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i></a></li>
-            <li><a href='https://es.pinterest.com/roxanastanvaldepenas/'><i class="fa fa-pinterest-square fa-2x" aria-hidden="true"></i></a></li>
-            <li><a href='https://valdepenas20.wordpress.com/'><i class="fa fa-wordpress fa-2x" aria-hidden="true"></i></a></li>
-        
-            <li><a href='https://www.instagram.com/roxanaweb/'><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a></li>
-            
-            
-            
-            </ul> 
-            
-            </nav>
-        
-        </div>
+      <h1>Portafolio</h1>
+     <div class="row">
+<!--         Empieza el trabajo-->
+  <div class="col-sm-6 col-md-4">
+    <div class="thumbnail" >
+      <img src='img/pagina-curriculum.jpg' alt="curriculum css">
+      <div class="caption">
+        <h3>Curriculum CSS</h3>
+        <p>Mi curriculum hecho en CSS</p>
+        <p><a href="https://roxanastanxy.github.io/curriculum/" class="btn btn-primary" role="button">Ver pagina</a> </p>
+      </div>
+    </div>
+  </div>
+<!--         Aqui acaba trabajo-->
+         <div class="col-sm-6 col-md-4">
+    <div class="thumbnail ">
+  <img  src="img/pagina-presentacion.jpg" alt="presentacion css">
+      <div class="caption">
+        <h3>Presentacion CSS</h3>
+        <p>Carta de presentacion en css</p>
+        <p><a href="https://roxanastanxy.github.io/presentacion/" class="btn btn-primary" role="button">Ver pagina</a> </p>
+      </div>
+    </div>
+  </div>
+         <div class="col-sm-6 col-md-4">
+    <div class="thumbnail ">
+     <img src="img/pagina-casa.jpg" alt="casa css">
+      <div class="caption">
+        <h3>Casa CSS</h3>
+        <p>Una casita hecha en CSS</p>
+        <p><a href="https://roxanastanxy.github.io/casa/" class="btn btn-primary" role="button">Ver pagina</a> </p>
+      </div>
+    </div>
+  </div>
+         <div class="col-sm-6 col-md-4">
+    <div class="thumbnail ">
+     <img src="img/pagina-canal.jpg" alt="pagina canal">
+        <div class="caption">
+        <h3>Un paseo por El Canal</h3>
+        <p>Pequeña presentacion del canal de Valdepeñas</p>
+        <p><a href="https://roxanastanxy.github.io/canal-valdepenas/" class="btn btn-primary" role="button">Ver pagina</a> </p>
+      </div>
+    </div>
+  </div>
+         <div class="col-sm-6 col-md-4">
+    <div class="thumbnail ">
+      <img src="img/mapa.jpg" alt="mapa monumentos">
+      <div class="caption">
+        <h3>Mapa monumentos </h3>
+        <p>Un mapa de los monumentos de Valdepeñas</p>
+        <p><a href="https://roxanastanxy.github.io/monumentos-valdepenas/" class="btn btn-primary" role="button">Ver pagina</a></p>
+      </div>
+    </div>
+  </div>
+         <div class="col-sm-6 col-md-4">
+    <div class="thumbnail ">
+      <img  src='img/formulario.jpg' alt="formulario css">
+      <div class="caption">
+        <h3>Formulario en CSS</h3>
+        <p>Formulario de contacto hecho en CSS</p>
+        <p><a href="https://roxanastanxy.github.io/formulario/" class="btn btn-primary" role="button">Ver pagina</a></p>
+      </div>
+    </div>
+  </div>
+          <div class="col-sm-6 col-md-4">
+    <div class="thumbnail ">
+      <img  src='img/animacion.jpg' alt="animacion css">
+      <div class="caption">
+        <h3>Formulario en CSS</h3>
+        <p>Formulario de contacto hecho en CSS</p>
+        <p><a href="https://roxanastanxy.github.io/animacioncss/" class="btn btn-primary" role="button">Ver pagina</a></p>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
 	</body>
 </html>
